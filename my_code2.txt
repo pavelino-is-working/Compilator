@@ -1,0 +1,15 @@
+VAR LIST [10] OF INTEGER my_list;
+len_list:INTEGER;
+suma:INTEGER;
+{
+len_lista= 10;
+While len_list > 0:
+Input(my_list[len_list]);
+len_list = len_list - 1;
+Endwhile
+While len_list < 10:
+len_list = len_list + 1;
+suma = suma +  my_list[len_list];
+Endwhile
+Output(suma)
+}.

@@ -1,0 +1,13 @@
+VAR nr1:INTEGER;
+nr2:INTEGER;
+maxi:INTEGER;
+{
+Input(nr1);
+Input(nr2);
+If nr1 > nr2:
+maxi = nr1;
+else:
+maxi = nr2;
+endif
+output(maxi);
+}.
